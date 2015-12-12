@@ -1,0 +1,157 @@
+JData {
+  jdataName = "Beginner",
+  jdataCategories = ["Analysis","Allgemein- bildung","Filme","Lineare Algebra","Konstanten"],
+  jdataPreamble = "\\usepackage{ngerman}",
+  jdataTable = fromList [
+    (("a",1),
+     JItem {
+       jitemAnswer = "Dieser K\246rper ist der algebraische Abschluss von $\\mathbb{R}$. Er\nl\228sst sich u.a. beschreiben als der Quotient\n$$\n\\mathbb{R}[X]/(x^2+1)\n$$",
+       jitemQuestion = "Was ist sind die\\\\ \\emph{komplexen Zahlen} $\\mathbb{C}$?",
+       jitemDouble = False
+     }),
+    (("a",2),
+     JItem {
+       jitemAnswer = "Dieser Satz stellt die grundlegende Beziehung zwischen Integration und\nDifferentiation in der eindimensionalen, reellen Analysis her.",
+       jitemQuestion = "Was ist der \\emph{Hauptsatz der  Differential- und Integralrechnung}?",
+       jitemDouble = False
+     }),
+    (("a",3),
+     JItem {
+       jitemAnswer = "Dabei handelt es sich um die beste lineare Approximation einer Funktion.",
+       jitemQuestion = "Was ist eine \\emph{Ableitung} (auch: \\emph{Linearisierung})?",
+       jitemDouble = False
+     }),
+    (("a",4),
+     JItem {
+       jitemAnswer = "Dies bedeutet, dass jede \220berdeckung mit offenen Mengen eine endliche\nTeil\252berdeckung besitzt.",
+       jitemQuestion = "Was ist \\emph{Kompaktheit}?",
+       jitemDouble = False
+     }),
+    (("a",5),
+     JItem {
+       jitemAnswer = "Diese Funktion $f(x)=y$ l\246st die Differentialgleichung $y' = y$ mit\nder Bedingung $f(0)=1$.",
+       jitemQuestion = "Was ist die \\emph{Exponentialfunktion} $f(x)=e^x$?",
+       jitemDouble = False
+     }),
+    (("b",1),
+     JItem {
+       jitemAnswer = "Dieser Zahlenbereich besteht aus Verh\228ltnissen von ganzen Zahlen.",
+       jitemQuestion = "Was sind die \\emph{rationalen Zahlen} $\\mathbb{Q}$?",
+       jitemDouble = False
+     }),
+    (("b",2),
+     JItem {
+       jitemAnswer = "Bei dieser Auszeichnung handelt es sich um die h\246chste Auszeichnung f\252r Mathematiker\\_innen unter 40 Jahren.",
+       jitemQuestion = "Was ist die \\emph{Fields-Medaille}?",
+       jitemDouble = False
+     }),
+    (("b",3),
+     JItem {
+       jitemAnswer = "Dieser Mathematiker wird auch gelegentlich \\emph{F\252rst der Mathematiker}\nbzw. \\emph{The Prince of Mathematicians} genannt.",
+       jitemQuestion = "Wer ist \\emph{Carl Friedrich Gauss}?",
+       jitemDouble = False
+     }),
+    (("b",4),
+     JItem {
+       jitemAnswer = "Mit diesem Symbol bezeichnet man die Kardinalit\228t der Menge der nat\252rlichen Zahlen.",
+       jitemQuestion = "Was bedeutet $\\aleph_0$?",
+       jitemDouble = False
+     }),
+    (("b",5),
+     JItem {
+       jitemAnswer = "Dahinter verbirgt sich die Aussage: Jede halbgeordnete Menge, in der\njede total geordnete Teilmenge eine obere Schranke hat, enth\228lt mindestens ein maximales Element.",
+       jitemQuestion = "Was ist das \\emph{Lemma von Zorn}?",
+       jitemDouble = True
+     }),
+    (("c",1),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=12cm]{Movie-Matrix.png}\n",
+       jitemQuestion = "Was ist \\emph{Matrix}?\n",
+       jitemDouble = False
+     }),
+    (("c",2),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=12cm]{Sin-City.png}",
+       jitemQuestion = "Was ist \\emph{Sin-City}?\n",
+       jitemDouble = False
+     }),
+    (("c",3),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=12cm]{Snakes-on-a-Plane.png}",
+       jitemQuestion = "Was ist \\emph{Snakes on a Plane}?",
+       jitemDouble = False
+     }),
+    (("c",4),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=12cm]{Independence-Day.png}",
+       jitemQuestion = "Was ist \\emph{Independence Day}?",
+       jitemDouble = True
+     }),
+    (("c",5),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=12cm]{Wall-E.png}",
+       jitemQuestion = "Was ist \\emph{Wall-E}?",
+       jitemDouble = False
+     }),
+    (("d",1),
+     JItem {
+       jitemAnswer = "$|\\langle u,v\\rangle| \\leq \\|u\\| \\cdot \\|v\\|$",
+       jitemQuestion = "Was ist die \\emph{Cauchy-Schwartz-Ungleichung}?",
+       jitemDouble = False
+     }),
+    (("d",2),
+     JItem {
+       jitemAnswer = "Zu einer gegebenen linearen Abbildung sind die Eigenwerte gerade die\nNullstellen dieses Polynoms.",
+       jitemQuestion = "Was ist das \\emph{charakteristische Polynom}?",
+       jitemDouble = False
+     }),
+    (("d",3),
+     JItem {
+       jitemAnswer = "Bez\252glich einer Basis aus Eigenvektoren hat die Matrix einer linearen\nAbbildung diese Form.",
+       jitemQuestion = "Was ist eine \\emph{Diagonalform}?",
+       jitemDouble = False
+     }),
+    (("d",4),
+     JItem {
+       jitemAnswer = "So eine Abbildung ben\246tigt man um Begriffe wie \\emph{L\228nge} oder \\emph{Winkel}\ndefinieren zu k\246nnen. Man braucht sie um von einem \\emph{Pr\228hilbertraum} sprechen zu k\246nnen.",
+       jitemQuestion = "Was ist ein Skalarprodukt?",
+       jitemDouble = False
+     }),
+    (("d",5),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=9cm]{Jordan-Normalform.png}",
+       jitemQuestion = "Was ist die \\emph{Jordansche Normalform}?",
+       jitemDouble = False
+     }),
+    (("e",1),
+     JItem {
+       jitemAnswer = "$\\sum_{n=0}^{\\infty}\\frac{1}{n!}$",
+       jitemQuestion = "Was ist die \\emph{Eulersche Zahl} $e$?",
+       jitemDouble = False
+     }),
+    (("e",2),
+     JItem {
+       jitemAnswer = "$\\frac{1+\\sqrt{5}}{2}$",
+       jitemQuestion = "Was ist der \\emph{Goldene Schnitt}?",
+       jitemDouble = False
+     }),
+    (("e",3),
+     JItem {
+       jitemAnswer = "Approximiert entspricht das Verh\228ltnis von l\228ngerer zu k\252r- zerer Seite eines DIN A Formats genau dieser -- auch historisch wichtigen -- Zahl.",
+       jitemQuestion = "Was ist $\\sqrt{2}$?",
+       jitemDouble = False
+     }),
+    (("e",4),
+     JItem {
+       jitemAnswer = "$\\frac{4}{1} - \\frac{4}{3} + \\frac{4}{5} - \\frac{4}{7} + \\frac{4}{9} - \\ldots$",
+       jitemQuestion = "Was ist $\\pi$",
+       jitemDouble = False
+     }),
+    (("e",5),
+     JItem {
+       jitemAnswer = "$10^{100}$",
+       jitemQuestion = "Was ist ein \\emph{Googol}?",
+       jitemDouble = False
+     })
+  ]
+}

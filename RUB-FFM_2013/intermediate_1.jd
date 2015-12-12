@@ -1,0 +1,157 @@
+JData {
+  jdataName = "Intermediate",
+  jdataCategories = ["Paradoxes","Werke & Autor_innen","Geschichte","S\228tze","Zitate"],
+  jdataPreamble = "\\usepackage{ngerman}",
+  jdataTable = fromList [
+    (("a",1),
+     JItem {
+       jitemAnswer = "T\252ren sollte man immer tauschen, um die Wahrscheinlichkeit eines\nGewinns auf $\\frac{2}{3}$ zu erh\246hen.",
+       jitemQuestion = "Was ist das \\emph{Ziegen-Paradoxon}?",
+       jitemDouble = False
+     }),
+    (("a",2),
+     JItem {
+       jitemAnswer = "Dieser Satz ist gelogen.",
+       jitemQuestion = "Was ist das \\emph{L\252gner-Paradoxon}?",
+       jitemDouble = False
+     }),
+    (("a",3),
+     JItem {
+       jitemAnswer = "K\246nnten wir nicht-messbare Mengen in der Realit\228t konstruieren, dann\nk\246nnten wir gem\228\223 dieses Paradoxons aus einer Erbse zwei genau so\ngro\223e Erbsen machen.",
+       jitemQuestion = "Was ist das \\emph{Banach-Tarski Paradoxon}?",
+       jitemDouble = False
+     }),
+    (("a",4),
+     JItem {
+       jitemAnswer = "Auf diesen Mathematiker geht folgende \"`Menge\"' zur\252ck:\n$\\{\\,x\\mid x\\notin x\\,\\}$",
+       jitemQuestion = "Wer ist Bertrand Russell?",
+       jitemDouble = False
+     }),
+    (("a",5),
+     JItem {
+       jitemAnswer = "Zum vollst\228ndigen bemalen der Innenfl\228che dieser Rotationsfl\228che\nben\246tigt man unendlich viel Farbe. F\252r das vollst\228ndige auff\252llen\ndieser Rotationsfl\228che mit Farbe gen\252gt jedoch endlich viel.",
+       jitemQuestion = "Was ist \\emph{Gabriels Horn} (auch: \\emph{Toricellis Trompete})?",
+       jitemDouble = False
+     }),
+    (("b",1),
+     JItem {
+       jitemAnswer = "Dieses Buch hat Mathematikgeschichte geschrieben. Es ist das\nerste gro\223e Werk der Geometrie.\n",
+       jitemQuestion = "Was ist \\emph{Die Elemente}?",
+       jitemDouble = False
+     }),
+    (("b",2),
+     JItem {
+       jitemAnswer = "Unter diesem Namen publizierte ein Kollektiv von Bochumer Topologen.",
+       jitemQuestion = "Was ist \\emph{Boto von Querenburg}?",
+       jitemDouble = False
+     }),
+    (("b",3),
+     JItem {
+       jitemAnswer = "Dieses 1913 ver\246ffentlichte Buch von Hermann Weyl war bahn- brechend f\252r\ndie Mathematik des 20.\\,Jhd. Reinhold Remmert\nkommentierte: \"`Das Werk [\\dots] tr\228gt den\nKeim zu- k\252nftiger Entwicklung in sich: es bereitete den Weg zur Theorie\nder topo- logischen, differenzierbaren und komplexen\nMannigfaltigkeiten.\"'\n",
+       jitemQuestion = "Was ist \\emph{Die Idee der Riemannschen Fl\228che}?",
+       jitemDouble = False
+     }),
+    (("b",4),
+     JItem {
+       jitemAnswer = "Dieses Buch wurde von Diophantos von Alexandria geschrieben. Pierre\nFermat soll am Rand einer Seite dieses Buches seine bekannte Vermutung\nnotiert haben.",
+       jitemQuestion = "Was ist \\emph{Arithmetica}?",
+       jitemDouble = False
+     }),
+    (("b",5),
+     JItem {
+       jitemAnswer = "Dieses in Latein geschriebene Buch \252ber Zahlentheorie hat Carl Friedrich Gauss im Alter von 21 Jahren geschrieben. Ver\246ffentlicht wurde es 1801.",
+       jitemQuestion = "Was ist \\emph{Disquisitiones Arithmeticae}?",
+       jitemDouble = True
+     }),
+    (("c",1),
+     JItem {
+       jitemAnswer = "Sowohl Newton wie auch Leibniz wird die Entwicklung bzw. Grundlegung\ndieser mathematischen Disziplin zugeschrieben.",
+       jitemQuestion = "Was ist die \\emph{Differentialrechnung}?",
+       jitemDouble = False
+     }),
+    (("c",2),
+     JItem {
+       jitemAnswer = "Unter diesem Begriff wird die Periode zu Beginn des\n20. Jhd. zusammengefasst, in welcher versucht wurde auf die Entdeckung\nvon Widerspr\252chen in der Mathematik zu reagieren.",
+       jitemQuestion = "Was ist die \\emph{Grundlagenkrise der Mathematik}?",
+       jitemDouble = False
+     }),
+    (("c",3),
+     JItem {
+       jitemAnswer = "Diese von David Hilbert gepr\228gte mathematikphilosophische Schule war der Ansicht, dass die Mathematik durch die Ent- wicklung einer \\emph{Metamathematik} auf ein sicheres Fundament gestellt werden k\246nnte.",
+       jitemQuestion = "Was ist der \\emph{Formalismus}?",
+       jitemDouble = False
+     }),
+    (("c",4),
+     JItem {
+       jitemAnswer = "Diese britische Mathematikerin wird allgemein als -- noch vor ihren\nm\228nnlichen Kollegen -- erste Programmiererin der Welt betrachtet. Sie\nschrieb im 19. Jhd. Programme f\252r einen Computer, der nie fertig\ngestellt wurde.",
+       jitemQuestion = "Wer ist \\emph{Ada Lovelace}?",
+       jitemDouble = False
+     }),
+    (("c",5),
+     JItem {
+       jitemAnswer = "Von 1979 bis 2009 war er Inhaber des Lucasischen Lehrstuhls f\252r\nMathematik an der Universit\228t Cambridge, den einst Sir Isaac Newton\nund Paul Dirac inne hatten. Nebenbei schreibt er\npopul\228rwissenschtliche B\252cher \252ber Physik.",
+       jitemQuestion = "Wer ist \\emph{Stephen Hawking}?",
+       jitemDouble = False
+     }),
+    (("d",1),
+     JItem {
+       jitemAnswer = "Jede stetige Selbstabbildung einer abgeschlossenen Kreisschreibe hat\neinen Fixpunkt.",
+       jitemQuestion = "Was ist der \\emph{Brouwersche Fixpunktsatz}?",
+       jitemDouble = False
+     }),
+    (("d",2),
+     JItem {
+       jitemAnswer = "Das nach ihm benannte Theorem besagt, dass jede beschr\228nkte, ganze\nFunktion auf der komplexen Ebene konstant sein muss.",
+       jitemQuestion = "Wer ist \\emph{Joseph Liouville}?",
+       jitemDouble = False
+     }),
+    (("d",3),
+     JItem {
+       jitemAnswer = "Jedes stetige Vektorfeld auf der $S^2$ hat eine Nullstelle.",
+       jitemQuestion = "Was ist der \\emph{Satz vom Igel} bzw. das \\emph{Hairy ball theorem}?",
+       jitemDouble = False
+     }),
+    (("d",4),
+     JItem {
+       jitemAnswer = "Dieser Satz postuliert die Anzahl von Farben, die stets ausreichen\njede denkbare Landkarte in der euklidischen Ebene so einzuf\228rben,\ndass keine zwei aneinander angrenzende L\228nder gleich eingef\228rbt\nsind.",
+       jitemQuestion = "Was ist der \\emph{Vier-Farben-Satz}?",
+       jitemDouble = False
+     }),
+    (("d",5),
+     JItem {
+       jitemAnswer = "Die Gau\223sche Kr\252mmung einer Fl\228che $S \\subset \\mathbb{R}^3$ ist eine\nGr\246\223e der inneren Geometrie von $S$.",
+       jitemQuestion = "Was ist die Aussage des \\emph{Theorema Egregium}?",
+       jitemDouble = True
+     }),
+    (("e",1),
+     JItem {
+       jitemAnswer = "\"`Mach' dir keine Sorgen wegen deiner Schwierigkeiten mit der\nMathematik. Ich kann dir versichern, dass meine noch gr\246\223er sind.\"'",
+       jitemQuestion = "Was ist ein Zitat von \\emph{Albert Einstein}?",
+       jitemDouble = False
+     }),
+    (("e",2),
+     JItem {
+       jitemAnswer = "\"`Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben k\246nnen.\"'",
+       jitemQuestion = "Was ist ein Zitat von \\emph{David Hilbert}?",
+       jitemDouble = False
+     }),
+    (("e",3),
+     JItem {
+       jitemAnswer = "\"`Seit man begonnen hat, die einfachsten Behauptungen zu beweisen,\nerwiesen sich viele von ihnen als falsch.\"'",
+       jitemQuestion = "Was ist ein Zitat von \\emph{Bertrand Russell}?",
+       jitemDouble = False
+     }),
+    (("e",4),
+     JItem {
+       jitemAnswer = "\"`Das Ganze ist mehr als die Summe seiner Teile.\"'",
+       jitemQuestion = "Was ist ein Zitat von \\emph{Aristoteles}?",
+       jitemDouble = False
+     }),
+    (("e",5),
+     JItem {
+       jitemAnswer = "\"`Seit der Zeit der Griechen bedeutet \\emph{Mathematik} zu sagen, \\emph{Beweis} zu sagen.\"'",
+       jitemQuestion = "Was ist ein Zitat des Kollektivs \\emph{Nicolas Bourbaki}?",
+       jitemDouble = False
+     })
+  ]
+}

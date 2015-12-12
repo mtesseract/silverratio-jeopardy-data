@@ -1,0 +1,157 @@
+JData {
+  jdataName = "Advanced",
+  jdataCategories = ["Bochum","Konstanten","Fields Medaillen","Philosophie","Probleme & Vermutungen"],
+  jdataPreamble = "",
+  jdataTable = fromList [
+    (("a",1),
+     JItem {
+       jitemAnswer = "Dieser Funktionentheoretiker wurde u.a. Gr\252ndungsdekan der\nFakult\228t f\252r Mathematik an der Ruhr-Universit\228t.",
+       jitemQuestion = "Wer ist \\emph{Friedrich Sommer}?",
+       jitemDouble = False
+     }),
+    (("a",2),
+     JItem {
+       jitemAnswer = "Dieser 1984 in Bochum promovierte Mathematiker entwickelte eine\nheute nach ihm benannte Homologietheorie. Zu seinen Ehren wurde 2011\nein \\emph{Zentrum f\252r Geometrie} an der Ruhr-Universit\228t nach ihm\nbenannt.",
+       jitemQuestion = "Wer ist \\emph{Andreas Floer}?",
+       jitemDouble = False
+     }),
+    (("a",3),
+     JItem {
+       jitemAnswer = "Dieser franz\246sische Mathematiker hat 2014 einen Ehrendoktortitel\nder Ruhr-Universit\228t verliehen bekommen.",
+       jitemQuestion = "Wer ist \\emph{Daniel Barlet}?\n",
+       jitemDouble = False
+     }),
+    (("a",4),
+     JItem {
+       jitemAnswer = "Dieser 2006 verstorbene Bochumer Kryptologe hat 1996 wesentliche\nSchw\228chen des MD5-Hashverfahrens beschrieben.",
+       jitemQuestion = "Wer ist \\emph{Hans Dobbertin}?\n",
+       jitemDouble = False
+     }),
+    (("a",5),
+     JItem {
+       jitemAnswer = "Nach diesem Mathematiker, der seit Ende der 70er Jahre Professor\nan der Ruhr-Universit\228t ist, ist ein Paradoxon benannt, welches die\nTatsache veranschaulicht, dass eine zus\228tzliche Handlungs- option unter\nder Annahme rationaler Einzelentscheidungen zu einer Verschlechterung\nder Situation f\252r alle f\252hren kann.",
+       jitemQuestion = "Wer ist \\emph{Dietrich Braess}?",
+       jitemDouble = True
+     }),
+    (("b",1),
+     JItem {
+       jitemAnswer = "$10^{100}$",
+       jitemQuestion = "Was ist ein \\emph{Googol}?",
+       jitemDouble = False
+     }),
+    (("b",2),
+     JItem {
+       jitemAnswer = "$10^{(10^{100})}$",
+       jitemQuestion = "Was ist ein \\emph{Googolplex}?",
+       jitemDouble = False
+     }),
+    (("b",3),
+     JItem {
+       jitemAnswer = "$\\gamma = 0,57721\\ldots$",
+       jitemQuestion = "Was ist die \\emph{Euler-Mascheroni-Konstante}?",
+       jitemDouble = False
+     }),
+    (("b",4),
+     JItem {
+       jitemAnswer = "$1 + \\sqrt{2} = 2,4142\\ldots$",
+       jitemQuestion = "Was ist der \\emph{silberne Schnitt}?",
+       jitemDouble = False
+     }),
+    (("b",5),
+     JItem {
+       jitemAnswer = "$G = 0,91596\\ldots$",
+       jitemQuestion = "Was ist die \\emph{Catalansche Konstante}?",
+       jitemDouble = False
+     }),
+    (("c",1),
+     JItem {
+       jitemAnswer = "Spinnenbroschen sind ein Markenzeichen dieses 2010 mit der Fields-Medaille ausgezeichneten Mathematikers.",
+       jitemQuestion = "Wer ist \\emph{C\233dric Vilani}?",
+       jitemDouble = False
+     }),
+    (("c",2),
+     JItem {
+       jitemAnswer = "Bei ihm handelt es sich um den ersten Mathematiker, der die ihm verliehene Fields-Medaille nicht an nahm.",
+       jitemQuestion = "Wer ist \\emph{Grigori Perelman}?",
+       jitemDouble = False
+     }),
+    (("c",3),
+     JItem {
+       jitemAnswer = "Sie war die erste Frau, die die Fields-Medaille verliehen bekam.",
+       jitemQuestion = "Wer ist \\emph{Maryam Mirzakhani}?",
+       jitemDouble = False
+     }),
+    (("c",4),
+     JItem {
+       jitemAnswer = "Diese beiden Mathematiker waren die ersten, die die Fields-Medaille verliehen bekamen.",
+       jitemQuestion = "Wer sind \\emph{Jesse Dougles} und\\\\ \\emph{Lars V. Ahlfors}?",
+       jitemDouble = False
+     }),
+    (("c",5),
+     JItem {
+       jitemAnswer = "Dieser US-amerikanische Mathematiker positionierte sich bei seiner Verleihung der\nFields-Medaille 1966 in Moskau gegen den Vietnamkrieg und sollte vom\ndamaligen \"Komitee f\252r unamerikanische Umtriebe\" vorgeladen werden.",
+       jitemQuestion = "Wer ist \\emph{Stephen Smale}?",
+       jitemDouble = False
+     }),
+    (("d",1),
+     JItem {
+       jitemAnswer = "Dieser Philosoph hat in seiner Grundlegung der Metaphysik erstmalig\nformuliert, dass es sich bei $7+5=12$ um ein synthetisches Urteil a\npriori handelt.",
+       jitemQuestion = "Wer ist \\emph{Immanuel Kant}?",
+       jitemDouble = False
+     }),
+    (("d",2),
+     JItem {
+       jitemAnswer = "Auf diesen Mathematiker, Philosophen und Logiker geht die nach ihm\nbenannte Antinomie zur\252ck, die wie folgt formuliert werden kann: $R\n:= \\{x: x \\not\\in x\\}$.",
+       jitemQuestion = "Wer ist \\emph{Bertrand Russell}?",
+       jitemDouble = False
+     }),
+    (("d",3),
+     JItem {
+       jitemAnswer = "Dieser bekannte Vertreter des mathematischen Intuitionismus wurde\nauf Wirken von David Hilbert hin aus der Redaktion der\n\\emph{Mathematischen Annalen} geworfen.",
+       jitemQuestion = "Wer ist \\emph{Luitzen Egbertuns Jan Brouwer}?",
+       jitemDouble = False
+     }),
+    (("d",4),
+     JItem {
+       jitemAnswer = "Dieser bekannte Logiker des 20. Jahrhunderts hat u.a. mit den\nMitteln der Modallogik einen ontologischen Gottesbeweis gef\252hrt, der\n1970 ver\246ffentlicht wurde und dessen Schl\252sse mittlerweile von\nComputern verifiziert wurden.",
+       jitemQuestion = "Wer ist \\emph{Kurt G\246del}?",
+       jitemDouble = False
+     }),
+    (("d",5),
+     JItem {
+       jitemAnswer = "Dieser Logiker hat in einem seiner Hauptwerke, der 1879\nver\246ffentlichten \\emph{Begriffsschrift}, eine Logik in axiomatischer\nForm erarbeitet und somit den Grundstein f\252r die Erforschung der\nGrundlagen der Mathematik gelegt.",
+       jitemQuestion = "Wer ist \\emph{Gottlob Frege}?",
+       jitemDouble = False
+     }),
+    (("e",1),
+     JItem {
+       jitemAnswer = "Auf diesen Mathematiker geht eine 1900 beim Internationalen\nMathematiker-Kongress ver\246ffentlichte Liste von 23 bis dato\nungel\246sten Problemen zur\252ck.",
+       jitemQuestion = "Wer ist \\emph{David Hilbert}?",
+       jitemDouble = False
+     }),
+    (("e",2),
+     JItem {
+       jitemAnswer = "Dieser Mathematiker konnte 1882 beweisen, dass die Quadratur des\nKreises mit Zirkel und Lineal unm\246glich ist.",
+       jitemQuestion = "Wer ist \\emph{Ferdinand von Lindemann}?",
+       jitemDouble = False
+     }),
+    (("e",3),
+     JItem {
+       jitemAnswer = "Diese bisher weder bewiesene, noch widerlegte zahlentheore- tische\nVermutung wurde in den 1980er Jahren von Joseph Oesterl\233 und David\nMasser formuliert. 2012 ver\246ffentlichte Shin\8217ichi Mochizuki einen\n\252ber 500 Seiten langen Vorschlag f\252r einen Beweis, der sich derzeit\nnoch in der Pr\252fphase befindet.",
+       jitemQuestion = "Was ist die \\emph{abc-Vermutung}?",
+       jitemDouble = False
+     }),
+    (("e",4),
+     JItem {
+       jitemAnswer = "Kurz formuliert lautet dieses Problem aus der Komplexit\228ts- theorie:\n   Jedes Problem, das auf einer nicht-deterministischen Maschine in\n   polynomieller Zeit gel\246st werden kann, kann auch auf einer\n   deterministischen Maschine in polynomieller Zeit gel\246st werden.",
+       jitemQuestion = "Was ist das \\emph{$P-NP$-Problem}?",
+       jitemDouble = False
+     }),
+    (("e",5),
+     JItem {
+       jitemAnswer = "Diese bisher unbewiesene Vermutung besagt, dass geschlossene,\nasph\228rische Mannigfaltigkeiten mit isomorphen Fundamentalgruppen\nhom\246omorph sind.",
+       jitemQuestion = "Was ist die \\emph{Borel Vermutung}?",
+       jitemDouble = True
+     })
+  ]
+}

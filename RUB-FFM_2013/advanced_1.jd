@@ -1,0 +1,157 @@
+JData {
+  jdataName = "Advanced",
+  jdataCategories = ["Geschichte","Verwandt schaft","Probleme","Ableitungen","Patholog. & Fraktales"],
+  jdataPreamble = "\\usepackage{ngerman}",
+  jdataTable = fromList [
+    (("a",1),
+     JItem {
+       jitemAnswer = "Seine Dissertation hatte den Titel \"`Non-cooperative Games\"'. Im Jahre\n1994 erhielt er den Nobelpreis f\252r Wirtschaftswissenschaften.",
+       jitemQuestion = "Wer ist \\emph{John Forbes Nash}?",
+       jitemDouble = False
+     }),
+    (("a",2),
+     JItem {
+       jitemAnswer = "Er kl\228rte die Frage ob es m\246glich ist, mit \\emph{einem} Spaziergang jede\nder sieben Br\252cken seiner Heimatstadt genau einmal zu \252berqueren.",
+       jitemQuestion = "Wer ist \\emph{Leonhard Euler}?",
+       jitemDouble = False
+     }),
+    (("a",3),
+     JItem {
+       jitemAnswer = "Dieser britische Mathematiker war w\228hrend des 2. Weltkriegs ma\223geblich daran beteiligt die \\emph{Enigma} der Nazis zu knacken.  Er gilt heute\nals einer der einflussreichsten Theoretiker der Computerentwicklung.\n",
+       jitemQuestion = "Wer ist \\emph{Alan Turing}?",
+       jitemDouble = False
+     }),
+    (("a",4),
+     JItem {
+       jitemAnswer = "Diesem Sch\252ler von Pythagoras sagt man nach, dass er die Existenz von\nirrationalen Zahlen entdeckt hat, woraufhin er von Pythagoras\nertr\228nkt wurde.\n",
+       jitemQuestion = "Wer war \\emph{Hippasos} (von Metapont)?",
+       jitemDouble = False
+     }),
+    (("a",5),
+     JItem {
+       jitemAnswer = "Diese franz\246sische Mathematikerin, die u.a. den gro\223en Fermatschen\nSatz f\252r eine gewisse Klasse von Zahlen bewies, f\252hrte ab 1804 einen\nBriefwechsel mit C.\\,F. Gauss. Sie tat dies unter dem Pseudonym\n\\emph{Auguste Antoine Le Blanc}, weil sie bef\252rchtete, als Frau nicht ernst genommen zu werden.",
+       jitemQuestion = "Wer ist \\emph{Sophie Germain}?",
+       jitemDouble = True
+     }),
+    (("b",1),
+     JItem {
+       jitemAnswer = "Dieser Mathematiker war der Doktorvater von Bernhard Riemann.",
+       jitemQuestion = "Wer ist \\emph{Carl Friedrich Gauss}?",
+       jitemDouble = False
+     }),
+    (("b",2),
+     JItem {
+       jitemAnswer = "Dieser Mathematiker war der Doktorvater von Carl Friedrich Gauss.",
+       jitemQuestion = "Wer ist \\emph{Johann Friedrich Pfaff}?",
+       jitemDouble = False
+     }),
+    (("b",3),
+     JItem {
+       jitemAnswer = "Dieser Mathematiker war der Doktorvater von Leonhard Euler.",
+       jitemQuestion = "Wer ist \\emph{Johann Bernoulli}?",
+       jitemDouble = False
+     }),
+    (("b",4),
+     JItem {
+       jitemAnswer = "Dieser Mathematiker war der Doktorvater von \\emph{Hermann Weyl}.",
+       jitemQuestion = "Wer war David Hilbert? ",
+       jitemDouble = False
+     }),
+    (("b",5),
+     JItem {
+       jitemAnswer = "Dieser Mathematiker war der Doktorvater von Henri Poincar\233.",
+       jitemQuestion = "Wer ist \\emph{Charles Hermite}?",
+       jitemDouble = False
+     }),
+    (("c",1),
+     JItem {
+       jitemAnswer = "Diese Hypothese postuliert, dass es keine Kardinalit\228t zwischen $\\vert\\mathbb{N}\\vert$ und $\\vert\\mathbb{R}\\vert$ gibt.",
+       jitemQuestion = "Was ist die \\emph{Kontinuumshypothese}?",
+       jitemDouble = False
+     }),
+    (("c",2),
+     JItem {
+       jitemAnswer = "Jede einfach zusammenh\228ngende, kompakte, unberandete, 3-dimensionale Mannigfaltigkeit ist hom\246omorph zur 3-Sph\228re.",
+       jitemQuestion = "Was ist die \\emph{Poincar\233-Vermutung}?",
+       jitemDouble = False
+     }),
+    (("c",3),
+     JItem {
+       jitemAnswer = "Jede gerade Zahl gr\246\223er als 2 kann als Summe zweier Primzahlen geschrieben werden.",
+       jitemQuestion = "Was ist die \\emph{Goldbachsche Vermutung}?",
+       jitemDouble = False
+     }),
+    (("c",4),
+     JItem {
+       jitemAnswer = "Zu jeder nat\252rlichen Zahl $n$ existiert zwischen $n^2$ und $(n+1)^2$\nmindestens eine Primzahl.",
+       jitemQuestion = "Was ist die \\emph{Legendresche Vermutung}?",
+       jitemDouble = False
+     }),
+    (("c",5),
+     JItem {
+       jitemAnswer = "Die einzige ganzzahlige L\246sung der Gleichung\n$$\nx^p - y^q = 1\n$$\nmit $x,p,y,q > 1$ lautet:\n$$\n3^2 - 2^3 = 1\n$$\n",
+       jitemQuestion = "Was ist die \\emph{Catalansche Vermutung}\n\n(heutzutage ein Satz)",
+       jitemDouble = False
+     }),
+    (("d",1),
+     JItem {
+       jitemAnswer = "$e^x$",
+       jitemQuestion = "Was ist die Ableitung von $e^x$?",
+       jitemDouble = False
+     }),
+    (("d",2),
+     JItem {
+       jitemAnswer = "$\\frac{1}{\\sqrt{x}}$",
+       jitemQuestion = "Was ist die Ableitung von $2\\sqrt{x}$?",
+       jitemDouble = False
+     }),
+    (("d",3),
+     JItem {
+       jitemAnswer = "$\\frac{1}{\\sqrt{1-x^2}}$",
+       jitemQuestion = "Was ist die Ableitung von $\\arcsin(x)$?",
+       jitemDouble = False
+     }),
+    (("d",4),
+     JItem {
+       jitemAnswer = "$\\ln(x)$",
+       jitemQuestion = "Was ist die Ableitung von $x\\ln(x)-x$?",
+       jitemDouble = False
+     }),
+    (("d",5),
+     JItem {
+       jitemAnswer = "$\\arcsin(x)$",
+       jitemQuestion = "Was ist die Ableitung von $x \\arcsin(x) + \\sqrt{1-x^2}$?",
+       jitemDouble = False
+     }),
+    (("e",1),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=12cm]{KochFlake.png}",
+       jitemQuestion = "Was ist die \\emph{Kochsche Schneeflocke}?",
+       jitemDouble = False
+     }),
+    (("e",2),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=12cm]{CantorFunction.png}",
+       jitemQuestion = "Was ist die \\emph{Cantor Funktion} (auch: \\emph{Devil's Staircase}).",
+       jitemDouble = False
+     }),
+    (("e",3),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=12cm]{Topologists-Sine.png}",
+       jitemQuestion = "Was ist die \\emph{Sinuskurve der Topologen} (\\emph{Topologist's Sine Curve})?",
+       jitemDouble = False
+     }),
+    (("e",4),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=10cm]{Menger_Schwamm.png}",
+       jitemQuestion = "Was ist der \\emph{Menger Schwamm}?",
+       jitemDouble = True
+     }),
+    (("e",5),
+     JItem {
+       jitemAnswer = "Diese im Jahre 1872 ver\246ffentlichte Funktion war das erste Beispiel\nf\252r eine Funktion $\\mathbb{R}\\to\\mathbb{R}$, die \252berall stetig und\nnirgens differenzierbar ist.",
+       jitemQuestion = "Was ist die \\emph{Weierstrass-Funktion}?",
+       jitemDouble = False
+     })
+  ]
+}

@@ -1,0 +1,157 @@
+JData {
+  jdataName = "Intermediate 1",
+  jdataCategories = ["S\228tze","Kryptographie","Funktionen","Physik","Ableitungen"],
+  jdataPreamble = "",
+  jdataTable = fromList [
+    (("a",1),
+     JItem {
+       jitemAnswer = "Ist die Abbildung $v\\colon \\mathbb{R}^n \\to \\mathbb{R}^\\ell$ im Punkt $x_0 \\in \\mathbb{R}^n$ und $u\\colon \\mathbb{R}^\\ell \\to \\mathbb{R}^m$ in $v(x_0)$ differenzierbar, so ist auch die Verkettung $u \\circ v$ differenzierbar und es gilt $D(u \\circ v)_{x_0} = Du_{v(x_0)} \\circ Dv_{x_0}$.",
+       jitemQuestion = "Was ist die \\emph{Kettenregel}?",
+       jitemDouble = False
+     }),
+    (("a",2),
+     JItem {
+       jitemAnswer = "Eine Teilmenge des $\\mathbb{R}^n$ ist genau dann kompakt, wenn sie\nbeschr\228nkt und abgeschlossen ist.",
+       jitemQuestion = "Was ist der \\emph{Satz von Heine-Borel}?",
+       jitemDouble = False
+     }),
+    (("a",3),
+     JItem {
+       jitemAnswer = "Jede quadratische Matrix ist Nullstelle ihres charakteristischen\nPolynoms.",
+       jitemQuestion = "Was ist der \\emph{Satz von Cayley-Hamilton}?",
+       jitemDouble = False
+     }),
+    (("a",4),
+     JItem {
+       jitemAnswer = "F\252r $a \\in \\mathbb{Z}$ und $p$ eine Primzahl ist stets $a^p \\equiv a \\mod p$.",
+       jitemQuestion = "Was ist der \\emph{kleine Fermatsche Satz}?",
+       jitemDouble = False
+     }),
+    (("a",5),
+     JItem {
+       jitemAnswer = "Ist $(X_i)_{i \\in I}$ eine Familie kompakter topologischer R\228ume,\ndann ist auch das kartesische Produkt $\\prod_{i \\in I} X_i$ mit der\nProduktopologie kompakt.",
+       jitemQuestion = "Was ist der \\emph{Satz von Tychnoff}?",
+       jitemDouble = False
+     }),
+    (("b",1),
+     JItem {
+       jitemAnswer = "Phil Zimmerman hat dieses Programm entwickelt, welches erstmalig Public-Key Kryptographie der Allgemeinheit zug\228nglich machte.",
+       jitemQuestion = "Was ist \\emph{PGP}?",
+       jitemDouble = False
+     }),
+    (("b",2),
+     JItem {
+       jitemAnswer = "So hiess die Verschl\252sselungs- maschine der Nazis, deren Verschl\252sselung im 2. Weltkrieg durch Kryptologen der Alliierten gebrochen wurde.",
+       jitemQuestion = "Was ist die \\emph{Enigma}?",
+       jitemDouble = False
+     }),
+    (("b",3),
+     JItem {
+       jitemAnswer = "Diese beiden Mathematiker gelten als die Entdecker der Public-Key-Kryptographie.",
+       jitemQuestion = "Wer sind \\emph{Whitfield Diffie} und \\emph{Martin Hellman}?",
+       jitemDouble = False
+     }),
+    (("b",4),
+     JItem {
+       jitemAnswer = "Aus diesem zahlentheoretischen Problem basiert das ElGamal-Verfahren.",
+       jitemQuestion = "Was ist das \\emph{Diskrete-Logarithmus-Problem}?",
+       jitemDouble = False
+     }),
+    (("b",5),
+     JItem {
+       jitemAnswer = "Dieser Chiffrier-Algorithmus wurde 2000 zum AES (Advanced Encryption System) gew\228hlt.",
+       jitemQuestion = "Was ist \\emph{Rijndael}?",
+       jitemDouble = False
+     }),
+    (("c",1),
+     JItem {
+       jitemAnswer = "\\[\nx \\mapsto \\sum_{n=0}^{\\infty} \\frac{x^n}{n!}\n\\]",
+       jitemQuestion = "Was ist die \\emph{Exponentialfunktion}?",
+       jitemDouble = False
+     }),
+    (("c",2),
+     JItem {
+       jitemAnswer = "\\[\nx \\mapsto \\int_1^x\\frac{dt}{t}\n\\]",
+       jitemQuestion = "Was ist der \\emph{nat\252rliche Logarithmus}?",
+       jitemDouble = False
+     }),
+    (("c",3),
+     JItem {
+       jitemAnswer = "\\[s \\mapsto \\sum_{n=1}^{\\infty}\\frac{1}{n^s}\\]",
+       jitemQuestion = "Was ist die \\emph{Riemannsche Zeta Funktion}?",
+       jitemDouble = False
+     }),
+    (("c",4),
+     JItem {
+       jitemAnswer = "\\begin{align*}\nz \\mapsto &\\frac{1}{z^2}\\\\\n + & \\sum_{(m,n) \\not= (0,0)}\\left(\\frac{1}{(z-m-ni)^2}-\\frac{1}{(m+ni)^2}\\right)\\\\\n\\end{align*}",
+       jitemQuestion = "Was ist die \\emph{Weierstrass $\\wp$-Funktion}?",
+       jitemDouble = False
+     }),
+    (("c",5),
+     JItem {
+       jitemAnswer = "$t \\mapsto \\int_0^\\infty x^{t-1}e^{-x}dx$",
+       jitemQuestion = "Was ist die \\emph{Gamma Funktion}?",
+       jitemDouble = True
+     }),
+    (("d",1),
+     JItem {
+       jitemAnswer = "$299\\,792\\,458\\frac{m}{s}$",
+       jitemQuestion = "Was ist die Lichtgeschwindigkeit (im Vakuum)?",
+       jitemDouble = False
+     }),
+    (("d",2),
+     JItem {
+       jitemAnswer = "Dieser Teilchenbeschleuniger am Europ\228ischen Kern- forschungszentrum\nCERN bei Genf ist der leistungsst\228rkste Teilchenbeschleuniger der\nWelt.",
+       jitemQuestion = "Was ist der \\emph{Large Hadron Collider} (LHC)?",
+       jitemDouble = False
+     }),
+    (("d",3),
+     JItem {
+       jitemAnswer = "In seinem 1543 ver\246ffentlichten Hauptwerk \\emph{De revolutionibus\norbium coelestium} beschrieb er das heliozentrische Weltbild des\nSonnensystems.",
+       jitemQuestion = "Wer ist \\emph{Nikolaus Kopernikus}?",
+       jitemDouble = False
+     }),
+    (("d",4),
+     JItem {
+       jitemAnswer = "Dieser schottische Physiker hat mit denen nach ihm benannten\nGleichungen die Ph\228nomene des Elektromagnetismus beschrieben.",
+       jitemQuestion = "Wer ist \\emph{James Clerk Maxwell}?",
+       jitemDouble = False
+     }),
+    (("d",5),
+     JItem {
+       jitemAnswer = "$-273,15 C$",
+       jitemQuestion = "Was ist der \\emph{absolute Nullpunkt}?",
+       jitemDouble = False
+     }),
+    (("e",1),
+     JItem {
+       jitemAnswer = "Die Ableitung dieser Funktion lautet: $f'(x) = 1$",
+       jitemQuestion = "Was ist die Ableitung von $f(x) = x$",
+       jitemDouble = False
+     }),
+    (("e",2),
+     JItem {
+       jitemAnswer = "Die Ableitung dieser Funktion lautet: $f'(x) = \\sqrt(x)$",
+       jitemQuestion = "Was ist die Ableitung von $f(x) = \\frac{2}{3}x^{\\frac{3}{2}}$",
+       jitemDouble = False
+     }),
+    (("e",3),
+     JItem {
+       jitemAnswer = "Die Ableitung dieser Funktion lautet: $f'(x) = -\\frac{1}{x^2}$",
+       jitemQuestion = "Was ist die Ableitung von $f(x) = \\frac{1}{x}$",
+       jitemDouble = False
+     }),
+    (("e",4),
+     JItem {
+       jitemAnswer = "Die Ableitung dieser Funktion lautet: $f'(x) = \\sinh x$",
+       jitemQuestion = "Was ist die Ableitung von $f(x) = \\cosh x$",
+       jitemDouble = False
+     }),
+    (("e",5),
+     JItem {
+       jitemAnswer = "Die Ableitung dieser Funktion lautet: $f'(x) = \\tan x$",
+       jitemQuestion = "Was ist die Ableitung von $-\\log|\\cos x|$",
+       jitemDouble = True
+     })
+  ]
+}

@@ -1,0 +1,157 @@
+JData {
+  jdataName = "Intermediate 2",
+  jdataCategories = ["Geometrie","Geschichte","Zahlen","Kultur","S\228tze"],
+  jdataPreamble = "\\usepackage{ngerman}",
+  jdataTable = fromList [
+    (("a",1),
+     JItem {
+       jitemAnswer = "Diese nicht-orientierbare Fl\228che erh\228lt man indem man zwei gegen\252berliegende Seiten eines Quadrats in entgegengesetzter Richtung miteinander verklebt.",
+       jitemQuestion = "Was ist das \\emph{M\246biusband}?",
+       jitemDouble = False
+     }),
+    (("a",2),
+     JItem {
+       jitemAnswer = "Es gibt genau f\252nf von ihnen: Tetraeder, Hexaeder, Oktaeder,\nDodekaeder, Ikosaeder.",
+       jitemQuestion = "Was sind die \\emph{Platonischen K\246rper}?",
+       jitemDouble = False
+     }),
+    (("a",3),
+     JItem {
+       jitemAnswer = "Dieses von Euklid postulierte Axiom musste fallen gelassen werden um\nder nicht-euklidischen Geometrie den Weg zu ebnen.",
+       jitemQuestion = "Was ist das \\emph{Parallelenaxiom}?",
+       jitemDouble = False
+     }),
+    (("a",4),
+     JItem {
+       jitemAnswer = "Man erh\228lt sie, wenn man zwei M\246biusb\228nder entlang ihrer R\228nder\nzusammenklebt.",
+       jitemQuestion = "Was ist die \\emph{Kleinsche Flasche}?",
+       jitemDouble = False
+     }),
+    (("a",5),
+     JItem {
+       jitemAnswer = "In dieser nicht-euklidischen Geometrie ist die Innenwinkelsumme eines\nDreieecks kleiner als $\\pi$.",
+       jitemQuestion = "Was ist \\emph{hyperbolische Geometrie}?",
+       jitemDouble = False
+     }),
+    (("b",1),
+     JItem {
+       jitemAnswer = "Dieser Mathematiker hat Fermats Letzten Satz bewiesen.",
+       jitemQuestion = "Wer ist \\emph{Andrew Wiles}?",
+       jitemDouble = False
+     }),
+    (("b",2),
+     JItem {
+       jitemAnswer = "Kolleg\\_innen waren \252ber den Drogenkonsum dieses Mathematikers besorgt. Im Jahre 1979\nwettete er um \\$500, dass er 30 Tage ohne Speed\nleben kann. Er hat die Wette gewonnen, allerdings nur zu Lasten seiner mathematischen Produktivit\228t.",
+       jitemQuestion = "Wer ist \\emph{Paul Erd\246s}?",
+       jitemDouble = False
+     }),
+    (("b",3),
+     JItem {
+       jitemAnswer = "Diese mathematikphilosophische Schule fordert bzw. forderte die Ableitung von Mathematik aus formaler Logik.",
+       jitemQuestion = "Was ist der \\emph{Logizismus}?",
+       jitemDouble = False
+     }),
+    (("b",4),
+     JItem {
+       jitemAnswer = "Dabei handelt es sich um eine fiktive Person, die vor allem als Studentenulk, aber auch in physikalischen Fachver- \246ffentlichungen,\nKarriere gemacht hat. Ihr Name basiert auf der Abk\252rzung einer\nFunktion, in welcher Albert Einstein oft unterwegs war.",
+       jitemQuestion = "Wer oder was ist \\emph{S.\\,B. Preuss}?",
+       jitemDouble = False
+     }),
+    (("b",5),
+     JItem {
+       jitemAnswer = "Diese mathematikphilosophische Schule war der Ansicht, dass man den Schwerpunkt auf mentale Konstruktionen legen sollte. Insbesondere sei\nes nicht akzeptabel positive Aussagen indirekt, d.h. durch\nWiderspruch, zu beweisen.",
+       jitemQuestion = "Was ist der \\emph{Intuitionismus}?",
+       jitemDouble = False
+     }),
+    (("c",1),
+     JItem {
+       jitemAnswer = "$1, 1, 2, 3, 5, 8, \\dots$",
+       jitemQuestion = "Was sind die \\emph{Fibonacci-Zahlen}?",
+       jitemDouble = False
+     }),
+    (("c",2),
+     JItem {
+       jitemAnswer = "Diese Zahlen beschreiben die Distanz im Graphen der Koautorenschaft\nbezogen auf den Mathematiker, nach dem diese Zahlen benannt sind.",
+       jitemQuestion = "Was sind die \\emph{Erd\246s-Zahlen}?",
+       jitemDouble = False
+     }),
+    (("c",3),
+     JItem {
+       jitemAnswer = "So nennt man Zahlen der Form\n$$\n2^n - 1\n$$\n($n \\in \\mathbb{N}$)",
+       jitemQuestion = "Was sind die \\emph{Mersenne-Zahlen}?",
+       jitemDouble = False
+     }),
+    (("c",4),
+     JItem {
+       jitemAnswer = "In seiner Schrift \\emph{Stetigkeit und Irrationalzahlen} von 1872 gab er die erste exakte Definition der reellen Zahlen mit Hilfe der nach ihm benannten \\emph{Schnitte}.",
+       jitemQuestion = "Wer ist \\emph{Richard Dedekind}?",
+       jitemDouble = True
+     }),
+    (("c",5),
+     JItem {
+       jitemAnswer = "In dieser in den 1960er Jahren von Abraham Robinson entwickelten\nK\246rpererweiterung von $\\mathbb{R}$ k\246nnen unendlich gro\223e bzw. kleine\nZahlen formal definiert werden. In der darauf aufbauenden\n\\emph{Nichtstandard- analysis} ist eine Formulierung der Differentialrechnung ohne den Grenzwertbegriff m\246glich.",
+       jitemQuestion = "Was sind die \\emph{hyperreellen Zahlen}?",
+       jitemDouble = False
+     }),
+    (("d",1),
+     JItem {
+       jitemAnswer = "Dieser Film aus dem Jahre 2001 skizziert die reale Lebens- geschichte\ndes insbesondere f\252r die Spieltheorie bekannten Mathematikers John\nForbes Nash nach der Biographie von Sylvia Nasar.",
+       jitemQuestion = "Was ist \\emph{A Beautiful Mind}?",
+       jitemDouble = False
+     }),
+    (("d",2),
+     JItem {
+       jitemAnswer = "In dieser Serie \252ber vier Physiker wird zur Entscheidungsfindung gerne dieses Spiel gespielt:\n\\includegraphics[width=7cm]{SteinPapierSchereEchseSpock.png}",
+       jitemQuestion = "Was ist \\emph{The Big Bang Theory}",
+       jitemDouble = False
+     }),
+    (("d",3),
+     JItem {
+       jitemAnswer = "Dieser Film von Darren Aronofsky -- u.a. bekannt als Regisseur von\n\\emph{Requiem for a Dream} -- aus dem Jahre 1998 handelt von einem\nparanoiden Mathematiker.",
+       jitemQuestion = "Was ist \\emph{Pi}?",
+       jitemDouble = False
+     }),
+    (("d",4),
+     JItem {
+       jitemAnswer = "Dieser Autor von popul\228rwissenschaftlichen B\252chern hat 1997 sein\nerstes Buch -- \\emph{Fermats letzter Satz} -- ver\246ffentlicht, in\nwelchem er die 300 Jahre lange Geschichte dieses Satz erz\228hlt.",
+       jitemQuestion = "Wer ist \\emph{Simon Singh}?",
+       jitemDouble = False
+     }),
+    (("d",5),
+     JItem {
+       jitemAnswer = "Dabei handelt es sich um eine 1884 von Edwin Abbott Abbott unter dem\nPsyeudonym A. Square ver\246ffentlichte Novelle. Die Schrift ist eine\nSatire auf die Struktur der Viktorianischen Gesellschaft sowie ein mathematisches Essay \252ber die vierte Dimension.",
+       jitemQuestion = "Was ist \\emph{Flatland (A Romance of many Dimensions)}?",
+       jitemDouble = False
+     }),
+    (("e",1),
+     JItem {
+       jitemAnswer = "$P(A\\mid B) \\; = \\; \\frac {P(B\\mid A) \\cdot P(A)} {P(B)}$",
+       jitemQuestion = "Was ist der \\emph{Satz von Bayes}?",
+       jitemDouble = False
+     }),
+    (("e",2),
+     JItem {
+       jitemAnswer = "Dieser Satz ist ein Verbindungsglied zwischen Analysis und Algebra. Er\nwurde 1799 von Carl Friedrich Gauss in seiner Dissertation bewiesen. Allerdings\nwurde eine Schwachstelle seines Beweises von 1799 erst 1920 geschlossen.",
+       jitemQuestion = "Was ist der \\emph{Fundamentalsatz der Algebra}?",
+       jitemDouble = False
+     }),
+    (("e",3),
+     JItem {
+       jitemAnswer = "F\252r $n > 2$ hat die Gleichung $a^n + b^n = c^n$ keine L\246sung in den\nganzen Zahlen.",
+       jitemQuestion = "Was ist der \\emph{Letzte Satz von Fermat}?",
+       jitemDouble = False
+     }),
+    (("e",4),
+     JItem {
+       jitemAnswer = "Jede einfach zusammenh\228ngende Riemannsche Fl\228che ist biholomorph \228quivalent zu genau einer der folgenden Fl\228chen:\n\\begin{enumerate}\n\\item der Einheitskreisscheibe\n\\item der komplexen Zahlenebene\n\\item der Riemannschen\\\\ Zahlenkugel \n\\end{enumerate}",
+       jitemQuestion = "Was ist der \\emph{Riemannsche Abbildungssatz} (oder auch: \\emph{Uniformisierungssatz})?",
+       jitemDouble = False
+     }),
+    (("e",5),
+     JItem {
+       jitemAnswer = "Jedes hinreichend m\228chtige, rekursiv aufz\228hlbare formale System ist entweder in sich  widerspr\252chlich oder unvollst\228ndig.",
+       jitemQuestion = "Was ist \\emph{G\246dels (erster) Unvollstandigkeitssatz}?",
+       jitemDouble = True
+     })
+  ]
+}
