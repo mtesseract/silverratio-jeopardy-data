@@ -1,0 +1,157 @@
+JData {
+  jdataName = "AMG EF",
+  jdataCategories = ["Analysis","Filme & Serien","Stochastik","Allgemeinbildung","Zahlen"],
+  jdataPreamble = "",
+  jdataTable = fromList [
+    (("a",1),
+     JItem {
+       jitemAnswer = "Dieser fundamentale Zahlenbereich wird mit dem Symbol $\\mathbb{R}$ bezeichnet.",
+       jitemQuestion = "Was sind die reellen Zahlen?",
+       jitemDouble = False
+     }),
+    (("a",2),
+     JItem {
+       jitemAnswer = "Diese Eigenschaft einer Funktion $f$ wird formal definiert durch die Bedingung $f(x) = f(-x)$.",
+       jitemQuestion = "Was ist Achsensymmetrie?",
+       jitemDouble = False
+     }),
+    (("a",3),
+     JItem {
+       jitemAnswer = "Der Graph dieser periodischen Funktion sieht wie folgt aus:\n\\includegraphics[width=10cm]{Sinus.png}",
+       jitemQuestion = "Was ist die Sinus-Funktion?",
+       jitemDouble = False
+     }),
+    (("a",4),
+     JItem {
+       jitemAnswer = "F\252r eine gegebene Funktion $f$ quantifiziert diese Funktion die Steigung von $f$. Definieren l\228sst sie sich mittels einer Grenzwert- betrachtung des Differenzen- quotienten.",
+       jitemQuestion = "Was ist die Ableitung einer Funktion $f$?",
+       jitemDouble = False
+     }),
+    (("a",5),
+     JItem {
+       jitemAnswer = "",
+       jitemQuestion = "",
+       jitemDouble = False
+     }),
+    (("b",1),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=12cm]{Movie-Matrix.png}",
+       jitemQuestion = "Was ist \\emph{Matrix}?",
+       jitemDouble = False
+     }),
+    (("b",2),
+     JItem {
+       jitemAnswer = "In dieser Sitcom \252ber vier Physiknerds wird gelegentlich zur Entscheidungsfindung dieses Spiel gespielt:\n\n\\includegraphics[width=5cm]{SteinPapierSchereEchseSpock.png}",
+       jitemQuestion = "Was ist \\emph{The Big Bang Theory}?",
+       jitemDouble = False
+     }),
+    (("b",3),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=12cm]{Independence-Day.png}",
+       jitemQuestion = "Was ist \\emph{Independenc Day}?",
+       jitemDouble = False
+     }),
+    (("b",4),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=12cm]{Sin-City.png}",
+       jitemQuestion = "Was ist \\emph{Sin City}?",
+       jitemDouble = True
+     }),
+    (("b",5),
+     JItem {
+       jitemAnswer = "\\includegraphics[width=12cm]{a-beautiful-mind.jpg}",
+       jitemQuestion = "Was ist \\emph{A Beautiful Mind}?",
+       jitemDouble = False
+     }),
+    (("c",1),
+     JItem {
+       jitemAnswer = "Mittels dieser Tafeln k\246nnen auf \252bersichtliche Weise die Zusammenh\228nge zwischen den Wahrscheinlichkeiten zweier Ereignisse dargestellt werden.",
+       jitemQuestion = "Was sind Vierfeldertafeln?",
+       jitemDouble = False
+     }),
+    (("c",2),
+     JItem {
+       jitemAnswer = "So nennt man eine Menge von Ergebnissen.",
+       jitemQuestion = "Was ist ein Ereignis?",
+       jitemDouble = False
+     }),
+    (("c",3),
+     JItem {
+       jitemAnswer = "Dabei handelt es sich um einen Grundbegriff der Stochastik. Er gibt an, welche Zahl ein numerisches Zufallsexperiment im Mittel annimmt.",
+       jitemQuestion = "Was ist ein Erwartungswert?",
+       jitemDouble = False
+     }),
+    (("c",4),
+     JItem {
+       jitemAnswer = "So nennt man zwei Ereignisse $A$ und $B$, wenn sie die Bedingung $P(A \\cap B) = P(A) \\cdot P(B)$ erf\252llen.",
+       jitemQuestion = "Was bedeutet stochastische Unabh\228ngigkeit von Ereignissen.",
+       jitemDouble = False
+     }),
+    (("c",5),
+     JItem {
+       jitemAnswer = "F\252r zwei Ereignisse $A$ und $B$ ist sie definiert als der Quotient\n$$\n\\frac{P(A \\cap B)}{P(B)}\n$$",
+       jitemQuestion = "Was ist die bedingte Wahrscheinlichkeit $P_A(B)$?",
+       jitemDouble = False
+     }),
+    (("d",1),
+     JItem {
+       jitemAnswer = "Dabei handelt es sich um ein konvexes Vieleck in der Ebene, dessen Innenwinkelsumme $180^\\circ$ betr\228gt.",
+       jitemQuestion = "Was ist ein Dreieck?",
+       jitemDouble = False
+     }),
+    (("d",2),
+     JItem {
+       jitemAnswer = "Diese Formel erm\246glicht die BErechnung der Nullstellen einer quadratischen Funktion. Konkret: Wenn $f(x) = x^2 + px + q$, dann sagt die Formel aus, dass die Nullstellen gegeben sind durch $-\\frac{p}{2} \\pm \\sqrt{\\left(\\frac{p}{2}\\right)^2 - q}$.\n",
+       jitemQuestion = "Was ist die $p,q$-Formel?",
+       jitemDouble = False
+     }),
+    (("d",3),
+     JItem {
+       jitemAnswer = "Nach diesem Mathematiker des antiken Griechenlands ist die Aussage \252ber Dreiecke benannt, nach welcher die Summe der Quadrate der Katheten gleich dem Quadrat der Hypotenuse ist.",
+       jitemQuestion = "Wer ist Pythagoras?\n",
+       jitemDouble = False
+     }),
+    (("d",4),
+     JItem {
+       jitemAnswer = "Auf diesen franz\246sischen Philosophen und Mathematiker gehen die \252blichen recht- winkligen Koordinatensysteme f\252r die Ebene und den Raum zur\252ck.",
+       jitemQuestion = "Wer ist Ren\233 Descartes?",
+       jitemDouble = False
+     }),
+    (("d",5),
+     JItem {
+       jitemAnswer = "Dieser Mathematiker wird oft \\emph{F\252rst der Mathematiker} genannt.",
+       jitemQuestion = "Wer ist Carl Friedrich Gauss?",
+       jitemDouble = True
+     }),
+    (("e",1),
+     JItem {
+       jitemAnswer = "Dabei handelt es sich um die Zahl, deren Dezimaldarstellung aus einer Eins gefolgt von sechs Nullen besteht.",
+       jitemQuestion = "Was ist eine Million?",
+       jitemDouble = False
+     }),
+    (("e",2),
+     JItem {
+       jitemAnswer = "Eine Multiplikation mit dieser Zahl \228ndert nichts.",
+       jitemQuestion = "Was ist die Eins?",
+       jitemDouble = False
+     }),
+    (("e",3),
+     JItem {
+       jitemAnswer = "Diese nat\252rlichen Zahlen sind nur durch Eins und durch sich selbst teilbar.",
+       jitemQuestion = "Was sind Primzahlen?",
+       jitemDouble = False
+     }),
+    (("e",4),
+     JItem {
+       jitemAnswer = "Dieser Zahlenbereich besteht aus Verh\228ltnissen von ganzen Zahlen.",
+       jitemQuestion = "Was sind die rationalen Zahlen $\\mathbb{Q}$?",
+       jitemDouble = False
+     }),
+    (("e",5),
+     JItem {
+       jitemAnswer = "Diese Konstante l\228sst sich definieren als das Verh\228ltnis des Umfangs eines Kreises zu seinem Durchmesser.",
+       jitemQuestion = "Was ist $\\pi$?",
+       jitemDouble = False
+     })
+  ]
+}
